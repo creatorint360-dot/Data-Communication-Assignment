@@ -185,61 +185,59 @@
     <div class="diagram-wrap">
       <svg width="780" height="260" viewBox="0 0 780 260" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;border-radius:10px;background:#f9f9f9;padding:10px;">
 
-        <!-- Wire line -->
-        <line x1="120" y1="130" x2="660" y2="130" stroke="#555" stroke-width="3" stroke-dasharray="10,5"/>
+  <!-- Wire line -->
+  <line x1="120" y1="130" x2="660" y2="130" stroke="#555" stroke-width="3" stroke-dasharray="10,5"/>
 
-        <!-- SENDER SIDE -->
-        <!-- Telegraph Key (Sender) -->
-        <rect x="30" y="100" width="90" height="50" rx="8" fill="#2e7d32" stroke="#1b5e20" stroke-width="2"/>
-        <text x="75" y="121" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Telegraph</text>
-        <text x="75" y="137" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Key</text>
-        <text x="75" y="153" text-anchor="middle" fill="#c8e6c9" font-size="9">(Sender)</text>
+  <!-- SENDER SIDE -->
+  <rect x="30" y="100" width="90" height="50" rx="8" fill="#2e7d32" stroke="#1b5e20" stroke-width="2"/>
+  <text x="75" y="121" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Telegraph</text>
+  <text x="75" y="137" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Key</text>
+  <text x="75" y="153" text-anchor="middle" fill="#c8e6c9" font-size="9">(Sender)</text>
+  <text x="75" y="90" text-anchor="middle" fill="#2e7d32" font-size="12" font-weight="bold">SENDER</text>
 
-        <!-- Sender label -->
-        <text x="75" y="90" text-anchor="middle" fill="#2e7d32" font-size="12" font-weight="bold">SENDER</text>
+  <!-- Morse signal SENDER side: dot dash dot -->
+  <circle cx="170" cy="130" r="5" fill="#e65100"/>
+  <rect x="183" y="126" width="18" height="8" rx="2" fill="#e65100"/>
+  <circle cx="210" cy="130" r="5" fill="#e65100"/>
+  <rect x="223" y="126" width="18" height="8" rx="2" fill="#e65100"/>
+  <circle cx="250" cy="130" r="5" fill="#e65100"/>
 
-        <!-- Morse signal dots/dashes -->
-        <circle cx="170" cy="120" r="5" fill="#e65100"/>
-        <rect x="185" y="116" width="18" height="8" rx="2" fill="#e65100"/>
-        <circle cx="215" cy="120" r="5" fill="#e65100"/>
-        <circle cx="230" cy="120" r="5" fill="#e65100"/>
-        <rect x="245" y="116" width="18" height="8" rx="2" fill="#e65100"/>
+  <!-- Signal label -->
+  <text x="210" y="108" text-anchor="middle" fill="#e65100" font-size="10" font-weight="bold">Morse Code Signal</text>
+  <text x="210" y="152" text-anchor="middle" fill="#888" font-size="9">(dots &amp; dashes)</text>
 
-        <!-- Signal label -->
-        <text x="215" y="105" text-anchor="middle" fill="#e65100" font-size="10" font-weight="bold">Morse Code Signal</text>
-        <text x="215" y="150" text-anchor="middle" fill="#888" font-size="9">(dots &amp; dashes)</text>
+  <!-- Electricity bolt -->
+  <text x="390" y="105" text-anchor="middle" font-size="22">⚡</text>
+  <text x="390" y="158" text-anchor="middle" fill="#888" font-size="9">Electrical Pulse</text>
 
-        <!-- Electricity bolt -->
-        <text x="390" y="100" text-anchor="middle" font-size="22">⚡</text>
-        <text x="390" y="155" text-anchor="middle" fill="#888" font-size="9">Electrical Pulse</text>
+  <!-- Morse signal RECEIVER side: dot dash dot (SAME pattern) -->
+  <circle cx="530" cy="130" r="5" fill="#e65100"/>
+  <rect x="543" y="126" width="18" height="8" rx="2" fill="#e65100"/>
+  <circle cx="570" cy="130" r="5" fill="#e65100"/>
+  <rect x="583" y="126" width="18" height="8" rx="2" fill="#e65100"/>
+  <circle cx="610" cy="130" r="5" fill="#e65100"/>
 
-        <!-- More signal on receiver side -->
-        <circle cx="530" cy="120" r="5" fill="#e65100"/>
-        <rect x="545" y="116" width="18" height="8" rx="2" fill="#e65100"/>
-        <circle cx="575" cy="120" r="5" fill="#e65100"/>
-        <rect x="590" y="116" width="18" height="8" rx="2" fill="#e65100"/>
+  <!-- RECEIVER SIDE -->
+  <rect x="660" y="100" width="90" height="50" rx="8" fill="#1565c0" stroke="#0d47a1" stroke-width="2"/>
+  <text x="705" y="121" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Telegraph</text>
+  <text x="705" y="137" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Sounder</text>
+  <text x="705" y="153" text-anchor="middle" fill="#bbdefb" font-size="9">(Receiver)</text>
+  <text x="705" y="90" text-anchor="middle" fill="#1565c0" font-size="12" font-weight="bold">RECEIVER</text>
 
-        <!-- RECEIVER SIDE -->
-        <rect x="660" y="100" width="90" height="50" rx="8" fill="#1565c0" stroke="#0d47a1" stroke-width="2"/>
-        <text x="705" y="121" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Telegraph</text>
-        <text x="705" y="137" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Sounder</text>
-        <text x="705" y="153" text-anchor="middle" fill="#bbdefb" font-size="9">(Receiver)</text>
-        <text x="705" y="90" text-anchor="middle" fill="#1565c0" font-size="12" font-weight="bold">RECEIVER</text>
+  <!-- Ground symbols -->
+  <line x1="75" y1="150" x2="75" y2="180" stroke="#555" stroke-width="2"/>
+  <line x1="60" y1="180" x2="90" y2="180" stroke="#555" stroke-width="2"/>
+  <line x1="65" y1="187" x2="85" y2="187" stroke="#555" stroke-width="2"/>
+  <line x1="70" y1="194" x2="80" y2="194" stroke="#555" stroke-width="2"/>
 
-        <!-- Ground symbols -->
-        <line x1="75" y1="150" x2="75" y2="180" stroke="#555" stroke-width="2"/>
-        <line x1="60" y1="180" x2="90" y2="180" stroke="#555" stroke-width="2"/>
-        <line x1="65" y1="187" x2="85" y2="187" stroke="#555" stroke-width="2"/>
-        <line x1="70" y1="194" x2="80" y2="194" stroke="#555" stroke-width="2"/>
+  <line x1="705" y1="150" x2="705" y2="180" stroke="#555" stroke-width="2"/>
+  <line x1="690" y1="180" x2="720" y2="180" stroke="#555" stroke-width="2"/>
+  <line x1="695" y1="187" x2="715" y2="187" stroke="#555" stroke-width="2"/>
+  <line x1="700" y1="194" x2="710" y2="194" stroke="#555" stroke-width="2"/>
 
-        <line x1="705" y1="150" x2="705" y2="180" stroke="#555" stroke-width="2"/>
-        <line x1="690" y1="180" x2="720" y2="180" stroke="#555" stroke-width="2"/>
-        <line x1="695" y1="187" x2="715" y2="187" stroke="#555" stroke-width="2"/>
-        <line x1="700" y1="194" x2="710" y2="194" stroke="#555" stroke-width="2"/>
-
-        <!-- Caption -->
-        <text x="390" y="240" text-anchor="middle" fill="#555" font-size="11">Figure: Basic Telegraph Communication System using Morse Code</text>
-      </svg>
+  <!-- Caption -->
+  <text x="390" y="240" text-anchor="middle" fill="#555" font-size="11">Figure: Basic Telegraph Communication System using Morse Code</text>
+</svg>
     </div>
 
     <div class="telegraph-info">
